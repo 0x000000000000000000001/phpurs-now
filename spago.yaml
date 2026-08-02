@@ -1,5 +1,1 @@
-package:
-  name: now
-  dependencies:
-    - datetime
-    - effect
+spago.php.yaml

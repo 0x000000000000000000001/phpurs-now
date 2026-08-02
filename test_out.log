@@ -1,0 +1,40 @@
+=== Building project with spago ===
+Reading Spago workspace configuration...
+
+✓ Selecting package to build: now
+
+Downloading dependencies...
+No lockfile found, generating it...
+Lockfile written to spago.lock. Please commit this file.
+Building...
+[ERROR 1/3 ModuleNotFound] test/Main.purs:5:1
+
+  5  import Control.Monad.Error.Class (try)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Module Control.Monad.Error.Class was not found.
+  Make sure the source file exists, and that it has been provided as an input to the compiler.
+
+[ERROR 2/3 ModuleNotFound] test/Main.purs:6:1
+
+  6  import Control.Monad.State (StateT, execStateT, lift, modify)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Module Control.Monad.State was not found.
+  Make sure the source file exists, and that it has been provided as an input to the compiler.
+
+[ERROR 3/3 ModuleNotFound] test/Main.purs:13:1
+
+  13  import Node.Process (exit)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  Module Node.Process was not found.
+  Make sure the source file exists, and that it has been provided as an input to the compiler.
+
+           Src   Lib   All
+Warnings     0     0     0
+Errors       3     0     3
+
+✘ Failed to build.
+
+Spago build failed
