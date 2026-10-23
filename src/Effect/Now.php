@@ -1,11 +1,11 @@
 <?php
 
-$now = function() {
+$now = function () {
     return round(microtime(true) * 1000);
 };
 
-$getTimezoneOffset = function() {
-    return -(date("Z") / 60);
+$getTimezoneOffset = function () {
+    return -(date('Z') / 60);
 };
 
 $exports['now'] = $now;

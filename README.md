@@ -1,5 +1,7 @@
 # Now
 
+> PHPurs checkout: see the [PHP library development guide](https://github.com/0x000000000000000000001/phpurs/blob/main/docs/libraries.md) for the TAST toolchain, FFI conventions and validation commands. Run `./bin/test` from this package with the PHP toolchain prepared.
+
 [![CI](https://github.com/purescript-contrib/purescript-now/workflows/CI/badge.svg?branch=main)](https://github.com/purescript-contrib/purescript-now/actions?query=workflow%3ACI+branch%3Amain)
 [![Release](https://img.shields.io/github/release/purescript-contrib/purescript-now.svg)](https://github.com/purescript-contrib/purescript-now/releases)
 [![Pursuit](https://pursuit.purescript.org/packages/purescript-now/badge)](https://pursuit.purescript.org/packages/purescript-now)
